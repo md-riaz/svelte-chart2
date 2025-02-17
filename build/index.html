@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="manifest" href="/manifest.json" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="/_app/immutable/entry/start.DAEZIFkM.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.CvVIR9im.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/runtime.DMDBuxFo.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.CM6H0YNl.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index-client.D35hvsnh.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.BvA9UvDa.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/render.C8ANRFab.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/disclose-version.CzeNfMnM.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/props.B_on3Og2.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/this.6uPUaqMN.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" data-theme="cerberus">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1czaroy = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.DAEZIFkM.js"),
+						import("/_app/immutable/entry/app.BvA9UvDa.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('/service-worker.js');
+						});
+					}
+				}
+			</script>
+		</div>
+	</body>
+</html>
