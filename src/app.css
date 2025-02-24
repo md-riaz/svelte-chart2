@@ -2,6 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@source '../node_modules/layerchart/**/*.{svelte,js}';
+
 /* `:root` doesn't work as needs to be a descendant of `:root` where Skeleton defined `--color-*`  */
 body {
   --theme-color-surface-100: var(--color-surface-50);
